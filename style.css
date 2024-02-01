@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: aqua;
+}
+
+footer{
+    width: 100%;
+    background-color:darkslategrey;
+    border-top: 3px solid white;
+
+
+}
+
+.flex-box0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:60%;
+    margin: 0 auto;
+
+}
+.logo0 {
+   
+    background-color: orange;
+    border-color: black;
+    border-style: dotted;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logo1{
+    flex-grow:2;
+}
+
+
+/* main */ 
+.blue-back{
+    background-color: blue;
+}
+
+
+
+
+.flex-boxA { 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+section {
+    padding: 20px;
+}
+
+
+           
+
+
+.white-back{
+    background-color: white;
+}
+
+.green-back{
+    background-color: darkolivegreen;
+}
+
+.black-back {
+    background-color: darkslategrey;
+}
+
+
+
+.box-small{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+
+}
+
+.box-medium{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+   
+}
+
+.box-large{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.box-green{
+    background-color: green;
+    flex-grow: 1;
+    border-color: black;
+    border-style: dotted;
+
+}
+.box-blue{
+    background-color: aqua;
+    flex-grow: 2;
+    border-color: black;
+border-style: dotted;
+}
+.box-pink{
+    background-color: pink;
+    flex-grow: 1;
+    border-color: black;
+border-style: dotted;
+
+    
+}
+.box-purple{
+    background-color: purple;
+    flex-grow: 1;
+    border-color: black;
+border-style: dotted;
+}
+
+.box-orange{
+    background-color: orange;
+    flex-grow: 0.5;border-color: white;
+    border-style: dotted;
+}
+    
+
+.flex-box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:60%;
+    margin: 10px auto;
+    background-color: aqua;
+    padding: 5px 0;
+    margin-bottom: 0;
+
+
+}
+button{
+    border-style: dotted;
+}
