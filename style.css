@@ -81,6 +81,7 @@ section {
 
 
 .box-small{
+   
     width: 400px;
     height: 300px;
     margin: 0 auto;
@@ -88,6 +89,7 @@ section {
 }
 
 .box-medium{
+    
     width: 600px;
     height: 300px;
     margin: 0 auto;
@@ -95,6 +97,7 @@ section {
 }
 
 .box-large{
+   
     width: 600px;
     height: 500px;
     margin: 0 auto;
